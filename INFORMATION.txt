@@ -1,0 +1,22 @@
+List to review
+
+- Header
+- Button Component
+- Embed button component into header html
+- Background color is fixed, use @input in button component to specify text color
+- On click for Button
+- (click) = onClick() in button component invokes method that invokes event emitter
+  and can use event emitter name (btnClick) in any component like header
+- in header html we now have a custom button with text, color, and btnClick()
+- Task interface defined in Task.ts and import in mock-tasks.ts
+- in task.component.ts import { Task } from '../../Task'; because Task interface is 2 levels up
+- for task.item.component.ts, create inputs so can put <app-task-item> in task html
+- Task-item css
+- app.module.ts shows every module we installed
+- task item - import { faTimes } from '@fortawesome/free-solid-svg-icons'; 43 minutes in video
+- tasks.component.ts - import { TaskService } from '../../services/task.service';
+  constructor(private taskService: TaskService) {}
+- tasks.component.ts - subscribe
+- npm i json-server
+- ng generate service services/task
+- import service in tasks component using import {TaskService} from 
